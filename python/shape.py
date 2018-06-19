@@ -3,6 +3,8 @@
 
 # Base class
 class Shape(object):
+    def __init__(self):
+        self
     def setWidth(self, w):
         self.width = w
     def setHeight(self, h):
