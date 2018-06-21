@@ -6,19 +6,23 @@ class Shape(object):
     def __init__(self):
         self
     def setWidth(self, w):
-        self.width = w
+        Shape.width = w
     def setHeight(self, h):
-        self.height = h
+        Shape.height = h
 
 # Derived class
 class Rectangle(Shape):
+    def __init__(self):
+        self
     def getArea(self):
-        return self.width * self.height
+        self.width * self.height
 
 # Another derived class
 class Triangle(Shape):
+    def __init__(self):
+        self
     def getArea(self):
-        return self.width * self.height / 2
+        self.width * self.height / 2
 
 Rect = Rectangle
 Tri = Triangle
