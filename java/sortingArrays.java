@@ -24,7 +24,7 @@ public class sortingArrays {
 	
 	public static int[] sortArray(int[] nums) {
 		
-		// bubble sorta
+		// bubble sort
 		for (int j = nums.length; j > 0; j--) {
 			for (int i = 1; i < j; i++) {
 				int first = nums[i - 1];
