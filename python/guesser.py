@@ -3,6 +3,12 @@
 
 import random
 
+def intro():
+
+	print "This program generates a random integer."
+	print "You must try to guess that integer."
+	print "You will be given hints after each guess."
+
 def main():
 
 	found = False
@@ -24,6 +30,7 @@ def main():
 		else:
 			userGuess = input("Incorrect. Guess Higher: ")
 
+intro()			
 main()
 
 # end of program
