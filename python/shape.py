@@ -15,14 +15,14 @@ class Rectangle(Shape):
     def __init__(self):
         self
     def getArea(self):
-        self.width * self.height
+        Shape.width * Shape.height
 
 # Another derived class
 class Triangle(Shape):
     def __init__(self):
         self
     def getArea(self):
-        self.width * self.height / 2
+        Shape.width * Shape.height / 2
 
 Rect = Rectangle
 Tri = Triangle
