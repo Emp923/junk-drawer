@@ -1,33 +1,56 @@
-// This is a test
-import java.util.Scanner;
+// testing reading in arguments from the command line
+
+class butts {
+	private int x;
+	private int y;
+	private static int count = 0;
+
+	public butts(int x, int y) {
+
+		System.out.println("Creating object ...");
+
+		this.x = x;
+		this.y = y;
+		count++;
+	}
+
+	public butts() {
+
+		System.out.println("Creating object ...");
+		count++;
+	}
+
+	public int getX() {
+		return this.x;
+	}
+
+	public void setX(int x) {
+		this.x = x;
+	}
+
+	public int getY() {
+		return this.y;
+	}
+
+	public void setY(int y) {
+		this.y = y;
+	}
+}
 
 public class test {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
+	
+		String[] userInput = args;
 
-        // creat scanner object
-        Scanner inputReader = new Scanner(System.in);
+		System.out.println();
+		System.out.println("Here is what you entered: ");
+		System.out.println();
+		
+		for (String user : userInput) {
+			System.out.println(user);
+		}
+		System.out.println();
+	}
 
-        // prompt user for name
-        System.out.print("What is your name? ");
-        String userName = inputReader.nextLine();
-
-        // great user
-        System.out.println("Hello, " + userName + "!");
-        System.out.println();
-
-        // promt user for age
-        System.out.print("How old are you? ");
-        int userAge = inputReader.nextInt();
-
-        // checks if user is old enough
-        if (userAge < 18) {
-            System.out.println("Adults Only!");
-        } else {
-            System.out.println("Welcome.");
-        }
-
-        // close scanner object
-        inputReader.close();
-    }
 }
