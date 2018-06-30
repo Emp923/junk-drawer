@@ -11,15 +11,15 @@ class Shape(object):
 # Derived class
 class Rectangle(Shape):
     def getArea(self):
-        self.width * self.height
+        return self.width * self.height
 
 # Another derived class
 class Triangle(Shape):
     def getArea(self):
-        self.width * self.height / 2
+        return self.width * self.height / 2
 
-Rect = Rectangle
-Tri = Triangle
+Rect = Rectangle()
+Tri = Triangle()
 
 Rect.setWidth(4)
 Rect.setHeight(8)
