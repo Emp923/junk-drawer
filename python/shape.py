@@ -27,7 +27,7 @@ Tri.setWidth(4)
 Tri.setHeight(8)
 
 # Print the area of the object
-print "Total area of rectangle: " + Rect.getArea()
-print "Total area of triangle: " + Tri.getArea()
+print "Total area of rectangle: " + str(Rect.getArea())
+print "Total area of triangle: " + str(Tri.getArea())
 
 # END
