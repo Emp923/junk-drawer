@@ -5,4 +5,5 @@ var y = 4;
 var ans = x * y;
 
 document.writeln(ans);
-console.log("This is a test");
+document.writeln();
+document.writeln("This is a test");
