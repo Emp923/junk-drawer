@@ -6,7 +6,19 @@ class TestClass(object):
         self.x = x
         self.y = y
 
+    def setX(self, x):
+        self.x = x
+
+    def setY(self, y):
+        self.y = y
+
 a = TestClass(4, 5)
+
+print a.x
+print a.y
+
+a.setX(7)
+a.setY(9)
 
 print a.x
 print a.y
