@@ -3,9 +3,14 @@
 using namespace std;
 
 int main() {
-    cout << "Hello Neighbor!" << endl;
+    
+    Employee emp1;
 
-    helper();
+    emp1.setX(2);
+    emp1.setY(4);
+
+    cout << "X: " << emp1.getX() << endl;
+    cout << "Y: " << emp1.getY() << endl;
 
     return 0;
 }

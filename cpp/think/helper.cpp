@@ -14,4 +14,12 @@ class Employee {
         int getX() {
             return this->x;
         }
+
+        void setY(int y) {
+            this->y = y;
+        }
+
+        int getY() {
+            return this->y;
+        }
 };
