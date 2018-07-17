@@ -1,10 +1,11 @@
 #include <iostream>
 using namespace std;
 
-class Employee {
+class TestClass {
     private:
         int x;
         int y;
+        static int count = 0;
 
     public:
         void setX(int x) {
@@ -21,5 +22,13 @@ class Employee {
 
         int getY() {
             return this->y;
+        }
+
+        TestClass() {
+            count++;
+        }
+
+        int getCount() {
+            return count;
         }
 };

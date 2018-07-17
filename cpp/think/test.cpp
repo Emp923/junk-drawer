@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
     
-    Employee emp1;
+    TestClass emp1;
 
     emp1.setX(2);
     emp1.setY(4);
