@@ -1,9 +1,12 @@
 // this is a test
 
-var x = 2;
-var y = 4;
-var ans = x * y;
+var person = {
+    firstName: "Eric",
+    lastName: "Penrod",
+    fullName: function() {
+        return this.firstName + " " + this.lastName;
+    }
+}
 
-document.writeln(ans);
-document.writeln();
-document.writeln("This is a test");
+console.log("This is a test.");
+console.log(person.fullName());
