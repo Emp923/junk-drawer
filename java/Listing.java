@@ -8,8 +8,10 @@ public class Listing {
         List<Person> ListOfPeople = new ArrayList<Person>();
 
         Person person1 = new Person("First", "LastName", true);
+        Person person2 = new Person("Eric", "Penrod", true);
 
         ListOfPeople.add(person1);
+        ListOfPeople.add(person2);
 
         System.out.println();
         System.out.println(" NAME\t\t\t\tLOCATION\t\tHAPPY?");
