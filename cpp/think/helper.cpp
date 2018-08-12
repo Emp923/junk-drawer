@@ -5,7 +5,7 @@ class TestClass {
     private:
         int x;
         int y;
-        static int count = 0;
+        static int count;
 
     public:
         void setX(int x) {
