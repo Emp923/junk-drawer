@@ -1,9 +1,0 @@
-binary guessing
-
-                                                                                                                              50
-                                                              25                                                                                                                              xx
-                              12                                                              xx                                                              xx                                                              xx
-              06                              xx                              xx                              xx                              xx                              xx                              xx                              xx
-      03              xx              xx              xx              xx              xx              xx              xx              xx              xx              xx              xx              xx              xx              xx              xx
-  01      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx      xx
-01  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx  xx 
