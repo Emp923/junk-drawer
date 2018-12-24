@@ -1,12 +1,9 @@
-# this is a test
+# working with inputs
 
-x = 5
-y = 12
-total = x + y
+name = input("What is your name? ")
+age = int(input("Hello {0}, How old are you? ".format(name)))
 
-if total > 10:
-    print("The test passes.")
+if age > 18:
+    print("This is correct.")
 else:
-    print("The test failed.")
-
-print(total)
+    print("Too young.")
