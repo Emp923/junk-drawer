@@ -1,7 +1,12 @@
 # my testing ground
 
-class MyClass:
-    x = 5
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
 
-p1 = MyClass()
-print(p1.x)
+    def myFunction(self):
+        print("Hello my name is " + self.name)
+
+p1 = Person("Eric", 29)
+p1.myFunction()
