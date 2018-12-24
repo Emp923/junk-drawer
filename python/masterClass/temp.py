@@ -1,9 +1,7 @@
-# working with inputs
+# my testing ground
 
-name = input("What is your name? ")
-age = int(input("Hello {0}, How old are you? ".format(name)))
+class MyClass:
+    x = 5
 
-if age > 18:
-    print("This is correct.")
-else:
-    print("Too young.")
+p1 = MyClass()
+print(p1.x)
