@@ -1,10 +1,11 @@
-#!/usr/bin/ruby
-# this is a test
+#!/usr/bin/ruby -w
 
 class MyClass
+
     def sayHello
         puts "Hello Neighbor!"
     end
+
 end
 
 hello = MyClass.new
