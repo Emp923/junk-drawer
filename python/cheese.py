@@ -1,5 +1,11 @@
 
-def sayHello():
-    print("Hello Neighbor!")
+class Cheese(object):
 
-sayHello()
+    def __init__(self, cheeseNumber):
+        self.cheeseNumber = cheeseNumber
+
+    def sayHello(self):
+        print("Hello Neighbor!")
+
+myCheese = Cheese(12)
+myCheese.sayHello()
