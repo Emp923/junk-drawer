@@ -1,12 +1,12 @@
 #!/usr/bin/ruby -w
 
-class Main
+class MyClass
 
-    def main
-        puts "Hello Neighbor!"
-    end
+	def sayHello
+		puts "Hello Neighbor!"
+	end
 
 end
 
-main = Main.new
-main.main
+hello = MyClass.new
+hello.sayHello
