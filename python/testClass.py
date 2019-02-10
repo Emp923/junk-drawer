@@ -30,5 +30,5 @@ class Main(object):
 		print(ans1)
 		print(ans2)
 
-if ("__main__" == "__name__"):
+if (__name__ == "__main__"):
 	Main.main()
