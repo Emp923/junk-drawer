@@ -17,6 +17,7 @@ class MyClass(object):
 
 class Main(object):
 
+	@classmethod
 	def main(self):
 
 		obj1 = MyClass(44, 66)
@@ -29,4 +30,5 @@ class Main(object):
 		print(ans1)
 		print(ans2)
 
-Main().main()
+if ("__main__" == "__name__"):
+	Main.main()
