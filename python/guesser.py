@@ -1,13 +1,13 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # Number guesser program by Eric Penrod
 
 import random
 
 def intro():
 
-	print "This program generates a random integer."
-	print "You must try to guess that integer."
-	print "You will be given hints after each guess."
+	print("This program generates a random integer.")
+	print("You must try to guess that integer.")
+	print("You will be given hints after each guess.")
 
 def main():
 
@@ -16,19 +16,19 @@ def main():
 	ranNum = random.randint(1,100)
 	# ranNum = 35		# for debugging use only
 
-	userGuess = input("What is your guess? ")
+	userGuess = int(input("What is your guess? "))
 
 	while not found:
 
 		if userGuess == ranNum:
-			print"That is correct!"
+			print("That is correct!")
 			found = True
 
 		elif userGuess > ranNum:
-			userGuess = input("Incorrect.  Guess lower: ")
+			userGuess = int(input("Incorrect.  Guess lower: "))
 
 		else:
-			userGuess = input("Incorrect. Guess Higher: ")
+			userGuess = int(input("Incorrect. Guess Higher: "))
 
 intro()			
 main()
