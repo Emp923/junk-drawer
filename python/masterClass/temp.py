@@ -1,12 +1,12 @@
-# my testing ground
+for i in range(1,20):
+    print("i is now {}".format(i))
 
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+number = "9,223,372,036,854,775,807"
+cleanedNumber = ''
 
-    def myFunction(self):
-        print("Hello my name is " + self.name)
+for i in range(0, len(number)):
+    if number[i] in '0123456789':
+        cleanedNumber = cleanedNumber + number[i]
 
-p1 = Person("Eric", 29)
-p1.myFunction()
+newNumber = int(cleanedNumber)
+print("The number is {}".format(newNumber))
